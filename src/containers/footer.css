@@ -1,0 +1,55 @@
+
+
+.banner-container{
+  position: relative;
+  color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 25px;
+    left: 160px;
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.166666507720947px;
+}
+
+.banner-footer{
+ height: 200px;
+ width: 100%;
+}
+
+.Bottom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color:#000000 ;
+    margin-top: -21px;
+    color: white;
+}
+
+.logo-icons, .sales-machine{
+    margin-top: 50px;
+}
+
+.logo-icons{
+    margin-left: 160px;
+    text-align: center;   
+
+}
+
+
+.copy {
+    font-size: 9px;
+}
+
+
+
+.sales-machine{
+    margin-right: 160px;
+    margin-top: 70px;
+}

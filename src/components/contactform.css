@@ -1,0 +1,67 @@
+
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.content_form {
+ position: absolute;
+
+  right: 0;
+  top: 0;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #834b83;
+  width: 184px;
+  font-size: 18px;
+  opacity: .8;
+
+ 
+}
+
+.input-button {
+  border-radius: 20px;
+  border: none;
+}
+
+
+.input-contact {
+  margin-bottom: 20px;
+ 
+}
+
+input {
+  width: 180px;
+  height: 25px;
+  
+  
+}
+
+label {
+    color: white;
+    opacity: .8;
+}
+
+textarea {
+  width: 180px;
+}
+
+
+.win_heading {
+    text-align: center;
+}
+
+@media  (max-width: 968px) {
+
+
+.content_form {
+ display: none;
+}
+
+
+
+}
